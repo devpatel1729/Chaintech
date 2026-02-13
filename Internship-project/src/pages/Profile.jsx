@@ -55,7 +55,7 @@ const Profile = () => {
           {/* Heading */}
           <div className="text-center">
             <p className="prata-regular text-2xl">Manage Your Profile</p>
-            <div className="w-10 h-[2px] bg-gray-800 mx-auto mt-2"></div>
+            <div className="w-10 h-0.5 bg-gray-800 mx-auto mt-2"></div>
           </div>
 
           {/* Name */}
@@ -65,7 +65,7 @@ const Profile = () => {
             value={name}
             onChange={(e) => setName(e.target.value)}
             disabled={!edit}
-            className={`w-full px-3 py-2 border rounded-md outline-none focus:ring-1 focus:ring-black
+            className={`w-full px-3 py-2 border outline-none focus:ring-1 focus:ring-black
         ${edit ? "bg-white" : "bg-gray-100 cursor-not-allowed"}`}
             required
           />
@@ -81,7 +81,7 @@ const Profile = () => {
               setPhone(num);
             }}
             disabled={!edit}
-            className={`w-full px-3 py-2 border rounded-md outline-none focus:ring-1 focus:ring-black
+            className={`w-full px-3 py-2 border outline-none focus:ring-1 focus:ring-black
         ${edit ? "bg-white" : "bg-gray-100 cursor-not-allowed"}`}
             required
           />
@@ -91,7 +91,7 @@ const Profile = () => {
             type="email"
             value={email}
             disabled
-            className="w-full px-3 py-2 border rounded-md bg-gray-100 cursor-not-allowed"
+            className="w-full px-3 py-2 border bg-gray-100 cursor-not-allowed"
           />
 
           {/* Password */}
@@ -120,14 +120,14 @@ const Profile = () => {
             <button
               type="button"
               onClick={() => setEdit(!edit)}
-              className="w-1/2 border border-black py-2 rounded-md hover:bg-gray-100 transition"
+              className="w-1/2 border border-black py-2 hover:bg-gray-100 transition"
             >
               {!edit ? "Update" : "Discard"}
             </button>
 
             <button
               type="submit"
-              className="w-1/2 bg-black text-white py-2 rounded-md hover:opacity-90 transition"
+              className="w-1/2 bg-black text-white py-2 hover:opacity-90 transition"
             >
               Save
             </button>

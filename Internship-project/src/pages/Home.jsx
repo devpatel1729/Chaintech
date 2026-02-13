@@ -13,8 +13,8 @@ const Home = () => {
   })
 
   return (
-    <div className="min-h-[60vh] flex items-center justify-center bg-gray-50 px-4">
-      <div className="w-full max-w-md bg-white p-6 rounded-xl shadow-sm text-center">
+    <div className="min-h-[60vh] flex items-center justify-center px-4">
+      <div className="w-full max-w-md bg-white p-6 shadow-sm text-center">
 
         <h2 className="text-2xl font-medium text-gray-800">
           Welcome {user?.name}
@@ -24,11 +24,11 @@ const Home = () => {
           Manage your data in your profile
         </p>
 
-        <div className="w-10 h-[2px] bg-gray-800 mx-auto my-4"></div>
+        <div className="w-10 h-0.5 bg-gray-800 mx-auto my-4"></div>
 
         <button
           onClick={() => navigate('/profile')}
-          className="w-full bg-black text-white py-2 rounded-md hover:opacity-90 transition"
+          className="w-full bg-black text-white py-2 hover:opacity-90 transition"
         >
           Go to Profile
         </button>

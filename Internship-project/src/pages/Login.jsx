@@ -52,7 +52,7 @@ const Login = () => {
                     {showPassword ? <EyeOff size={20} /> : <Eye size={20} />}
                 </button>
             </div>
-            <div className='w-full flex justify-between text-sm mt-[-8px]'>
+            <div className='w-full flex justify-between text-sm mt-2'>
                 <p className='cursor-pointer'></p>
                 <p onClick={() => navigate('/register')} className='cursor-pointer'>New User? &nbsp;<span className='text-blue-600 underline'>Create Account</span></p>
             </div>
