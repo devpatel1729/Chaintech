@@ -46,7 +46,7 @@ const Profile = () => {
   }, [])
   return (
     <div className="min-h-[80vh] flex items-center justify-center px-4">
-      <div className="w-full max-w-md bg-white p-6 rounded-xl shadow-sm">
+      <div className="w-full max-w-md bg-white p-6 shadow-sm">
 
         <form
           onSubmit={onSubmitHandler}
@@ -102,14 +102,14 @@ const Profile = () => {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               disabled={!edit}
-              className={`w-full px-3 py-2 border border-r-0 rounded-l-md outline-none focus:ring-1 focus:ring-black
+              className={`w-full px-3 py-2 border border-r-0 outline-none focus:ring-1 focus:ring-black
           ${edit ? "bg-white" : "bg-gray-100 cursor-not-allowed"}`}
               required
             />
             <button
               type="button"
               onClick={() => setShowPassword((prev) => !prev)}
-              className="px-3 border rounded-r-md flex items-center justify-center bg-gray-50"
+              className="px-3 border flex items-center justify-center bg-gray-50"
             >
               {showPassword ? <EyeOff size={18} /> : <Eye size={18} />}
             </button>
