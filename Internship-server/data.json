@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "name": "Dev Patel",
+      "phone": "8200334450",
+      "email": "devhpatel1729@gmail.com",
+      "password": "dev1234"
+    },
+    {
+      "name": "CHAMPION PREMIUm",
+      "email": "raj.bhatt@proplegit.com",
+      "password": "raj1234",
+      "phone": "9033992710"
+    },
+    {
+      "name": "Raj",
+      "email": "raj@gmail.com",
+      "password": "raju9090",
+      "phone": "7068712313"
+    },
+    {
+      "name": "Rahul Thakor",
+      "email": "rahul@gmail.com",
+      "password": "rahul1729",
+      "phone": "7899965444"
+    }
+  ]
+}
