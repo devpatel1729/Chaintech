@@ -45,7 +45,7 @@ const Profile = () => {
     }
   }, [])
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50 px-4">
+    <div className="min-h-[80vh] flex items-center justify-center px-4">
       <div className="w-full max-w-md bg-white p-6 rounded-xl shadow-sm">
 
         <form
