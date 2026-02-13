@@ -22,7 +22,10 @@ const Login = () => {
             navigate('/');
             getData()
         } else {
+            alert('Invalid email or password')
             console.log("Invalid email or password");
+            setEmail('')
+            setPassword('')
         }
     }
 
